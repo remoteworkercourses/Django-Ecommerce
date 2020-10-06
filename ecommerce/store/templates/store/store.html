@@ -1,1 +1,21 @@
-<h3>store</h3>
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+
+<div class="row">
+
+    <div class="col-lg-4">
+        <div class="box-element product">Barang</div>
+    </div>
+
+    <div class="col-lg-4">
+        <div class="box-element product">Harga</div>
+    </div>
+
+    <div class="col-lg-4">
+        <div class="box-element product">Ulasan</div>
+    </div>
+
+</div>
+
+{% endblock content %}
