@@ -1,5 +1,5 @@
 body{
-    background-color:  #ff471a;
+    background-color: hsl(0, 0%, 98%);
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -30,18 +30,19 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #cart-icon{
-    width:20px;
-    height:20px;
+    width:25px;
     display: inline-block;
 }
 
 #cart-total{
     display: block;
     text-align: center;
-    color: #ff471a;
+    color:#fff;
+    background-color: #000000;
     width: 20px;
     height: 20px;
-    font-size: 25px;
+    border-radius: 20%;
+    font-size: 14px;
 }
 
 .col-lg-4, .col-lg-6, .col-lg-8, .col-lg-12{
@@ -49,7 +50,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .btn{
-    color:#ff471a;
+    border-radius: 20;
     background-color: #000000;
 }
 
