@@ -6,13 +6,13 @@
     {% for product in products %}
 
     <div class="col-lg-4">
-        <img class="thumbnail" src="{{product.image.url}}">
+        <img class="thumbnail" src="{{product.imageURL}}">
         <div class="box-element product"></div>
         <h6><strong>{{product.name}}</strong></h6>
         <hr>
-        <button class="btn btn-outline-secondary add-btn">Tambah ke Keranjang</button>
+        <button data-product="{{product.id}}" data-action="add" class="btn btn-outline-secondary add-btn update-cart">Tambah ke Keranjang</button>
         <a class=" btn btn-outline-secondary" href="#">Tampilan</a>
-        <h4 style="display: inline-block; float:right"><strong>{{product.price}}</strong></h4>
+        <h4 style="display: inline-block; float:right"><strong>{{product.price|floatformat:0}}</strong></h4>
     </div>
 
 
